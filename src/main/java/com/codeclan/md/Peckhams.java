@@ -8,8 +8,8 @@ public class Peckhams implements FoodSource {
 	
 	public Peckhams(){
 		Fish fish = new Fish();
-		Human human = new Human();
-		stock.add(human);
+		Deer deer = new Deer();
+		stock.add(deer);
 		stock.add(fish);
 	}
 
@@ -17,4 +17,6 @@ public class Peckhams implements FoodSource {
 		return stock.remove(0);
 	}
 
+	
+	
 }
